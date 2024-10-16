@@ -1,0 +1,53 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+
+.Calcula-descuento{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.content-descuento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(100, 148, 237, 0.519);
+    padding: 50px;
+    border-radius: 7px;
+}
+
+
+input{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(54, 85, 24, 0.174);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+h4{
+    color: rgb(72, 136, 138);
+}
+
+button{
+    border: 0;
+    border-radius: 6px;
+    background-color: rgba(36, 130, 36, 0.333);
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+}
